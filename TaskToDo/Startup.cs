@@ -30,16 +30,14 @@ namespace TaskToDo
                            .Build()
                 );
             });
-
             services.AddSwaggerGen(options =>
             {
-                var titleBase = "Task todo api sendo consumida pelo ionic";
-                var description = $"Ionic";
+                var titleBase = "ToDoTasks API";
+                var description = "This project is an API using dotnet 3.1, it was made using visual studio 2019 Community version by Microsoft Corporation.";
                 var contact = new OpenApiContact()
                 {
-                    Email = "kayky7277@gmail.com",
-                    Name = "Etec Itu",
-                    Url = new System.Uri("https://github.com/Kayky933/ConsumindoApiETECIonic")
+                    Email = "kayky.m.santana@gmail.com",
+                    Name = "Kayky Matos"
                 };
 
                 options.SwaggerDoc("v1", new OpenApiInfo
@@ -50,6 +48,7 @@ namespace TaskToDo
                     Contact = contact
                 });
             });
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -76,7 +75,7 @@ namespace TaskToDo
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Primeira Api ");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "First API");
             });
         }
     }
