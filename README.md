@@ -5,7 +5,7 @@
 - <a href="https://dotnet.microsoft.com/en-us/download/dotnet/3.1/" target="_blank">Dotnet 3.1</a>
 - <a href="https://docs.microsoft.com/pt-br/dotnet/csharp/whats-new/csharp-8/" target="_blank">C# 8.0</a>
 - <a href="https://visualstudio.microsoft.com/pt-br/downloads/" target="_blank">Visual Studio 2019 </a>
-- <a href="https://www.litedb.org/" target="_blank">LiteDb</a>
+- <a href="https://www.litedb.org/" target="_blank">LiteDb</a> || <a href="https://www.nuget.org/packages/LiteDB/5.0.10" target="_blank">Nuget.Org Download version 5.0.10</a>
 - <a href="https://docs.microsoft.com/pt-br/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-3.1/" target="_blank">Swagger</a>
 
 ## LiteDb
